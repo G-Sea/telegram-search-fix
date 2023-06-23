@@ -1,6 +1,6 @@
 
 # 相比原版，我修改了requirements.txt中要求Telethon的版本，1.10.10版本的会报错提示
-'telethon.errors.rpcbaseerrors.AuthKeyError: RPCError 406: UPDATE_APP_TO_LOGIN (caused by SignInRequest)'
+`telethon.errors.rpcbaseerrors.AuthKeyError: RPCError 406: UPDATE_APP_TO_LOGIN (caused by SignInRequest)`
 
 
 
@@ -62,8 +62,10 @@ Bot：[@awesomeopensource_search_bot](http://t.me/awesomeopensource_search_bot)
 
     使用 docker-compose 部署：`docker-compose up -d`
 
-   如果你报错提示
-   `-bash: docker-compose: command not found`
+   如果你报错提示:
+   
+   "-bash: docker-compose: command not found"
+   
    则先安装compose，输入以下代码安装：
   `sudo curl -L "https://github.com/docker/compose/releases/download/v2.2.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`
     
