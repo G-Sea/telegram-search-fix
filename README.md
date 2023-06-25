@@ -1,5 +1,5 @@
 
-# 相比原版，我修改了requirements.txt中要求Telethon的版本，1.10.10版本的会报错提示
+### 相比原版，我修改了requirements.txt中要求Telethon的版本，1.10.10版本的会报错提示
 `telethon.errors.rpcbaseerrors.AuthKeyError: RPCError 406: UPDATE_APP_TO_LOGIN (caused by SignInRequest)`
 
 
